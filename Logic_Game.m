@@ -118,52 +118,9 @@
     
         
     
-    
-   /* 
-    **** BUG : when the pillars are close together - they overlap . Impossible to go through
-    if (abs(Block5.center.y- Block1.center.y) < 50)
-        {
-        NSLog(@"Error detected"); 
-        
-        }
-    */
+
 }
 
-/*
-- (void)showLabelAndStartTimer
-{
-    Level.hidden = NO;
-     Level.text  = [NSString stringWithFormat:@"Level %i", LevelNumber];
-    [self startTimer];
-}
-- (void)startTimer
-{
-    [self stopTimer];
-    
-    LevelLabelDisplay = [NSTimer scheduledTimerWithTimeInterval:TIMER_INTERVAL
-                                             target:self
-                                           selector:@selector(timerCallback)
-                                           userInfo:nil
-                                            repeats:NO];
-   // [LevelLabelDisplay retain];
-}
-
-- (void)stopTimer
-{
-    if (LevelLabelDisplay)
-        {
-        [LevelLabelDisplay invalidate];
-        //[LevelLabelDisplay release];
-       // LevelLabelDisplay = nil;
-        }
-}
-- (void)timerCallback
-{
-    Level.hidden = YES;
-}
-
-
-*/
 
 -(void)LoadNewLevel
 {
